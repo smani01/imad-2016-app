@@ -41,7 +41,7 @@ var articles = {
             </p>`
 },
     'Article-Three': {
-        title: 'Article Threee | Sreedivya',
+        title: 'Article Three | Sreedivya',
         heading: 'Article Three',
         date:'Sep 15, 2016',
         content: `<p>
