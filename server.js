@@ -76,7 +76,7 @@ function createTemplate (data) {
             </head>
             <body>
              <div class="container-articles">
-                <div>
+                
                     <a href="/">Home</a>
                 </div>
                 <hr/>
@@ -89,7 +89,7 @@ function createTemplate (data) {
                 <div>
                    ${content}
                 </div>
-             </div>
+             
             </body>
         </html>
         `;
