@@ -1,4 +1,4 @@
-var Button = document.getElementById('Counter');
+var Button = document.getElementById('counter');
 
 Button.onclick = function() {
     //Create a request object
