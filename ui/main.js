@@ -3,6 +3,7 @@ var button= document.getElementById('Counter');
 button.onclick=function(){
     //Create a request object
     var request = new XMLHttpRequest();
+    
     //capture the response and store it in a variable
     request.onreadystatechange = function(){
         if (request.readystate === XMLHttpRequest.DONE){
@@ -17,5 +18,5 @@ button.onclick=function(){
     };
     //make the request
     request.open('GET','http://smani01.imad.hasura-app.io/counter',true);
-    request.send(null)
+    request.send(null);
 };
