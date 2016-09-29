@@ -1,6 +1,6 @@
-var Button = document.getElementById('counter');
+var button = document.getElementById('counter');
 
-Button.onclick = function() {
+button.onclick = function() {
     //Create a request object
     var request = new XMLHttpRequest();
     
