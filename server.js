@@ -109,9 +109,8 @@ app.get('/counter', function (req, res) {
 });
 
 var names = [];
-app.get('/submit-name/:name',function (req, res) {
-    // Get the name from the request
-    var name=req.params.name; // 1000
+app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
+    var name=req.query.name; // 1000
     
     names.push(name);
     //JSON - Javascript Object Notation
