@@ -19,6 +19,11 @@ body {
 .img-medium {
     height: 200px;
 }
+
+.bgimg {
+    background-image:url(ui/BI1.jpg);
+}
+
  .container {
     max-width: 800px;
     margin: 0 auto;
