@@ -15,7 +15,13 @@ content is set to 20 using the padding property; the items are displayed
 in a block with a 3D inset border. */
 #horizontalmenu li { float: left; position: relative; padding-right: 60; display inline-block; }
 /* Hides the list items of the unordered list. */
-#horizontalmenu li ul { display: none; position: absolute; }
+#horizontalmenu li ul { display: none; position: absolute;     z-index: 10;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;}
 /* When the mouse pointer hovers over the menu elements, the child unordered
 list items are shown in blocks; the width is set in em units. */
 #horizontalmenu li:hover ul{ background: none;height: auto;
