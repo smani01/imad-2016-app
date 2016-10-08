@@ -21,7 +21,9 @@ body {
 }
 
 .bgimg {
-    background-image:url(/ui/IMG-20160901-WA0029.jpg) no-repeat fixed;
+    background-image:url(/ui/IMG-20160901-WA0029.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
  .container {
