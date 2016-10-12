@@ -49,6 +49,7 @@ body {
     
     #contactbar li {
     display:inline-block;
-    width: 30px;
+    padding: 10px 40px;
+    width: auto;
     text-align: center;
     }
