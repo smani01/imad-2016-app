@@ -52,6 +52,9 @@ var articles = {
         </div>
         <div id="contactbar">
             <ul>
+            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg" sizes="160px"> </a></li>
+            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg"> </a></li>
+            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg"> </a></li>
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg"> </a></li>
         </div> 
             </p>`
