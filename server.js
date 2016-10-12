@@ -42,7 +42,7 @@ var articles = {
 },
     'Article-Three': {
         title: 'Contact | Sreedivya',
-        heading: 'Contact',
+        heading: 'CONTACT',
         date:'Sep 15, 2016',
         content: `<p>
     
