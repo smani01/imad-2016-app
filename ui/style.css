@@ -30,12 +30,7 @@ body {
     font-family: sans-serif;
 }
 
-#horizontalmenu  {
-      background-color: green;
-      margin: 0;
-      padding: 10px 40px;
-}
-    
+
 #horizontalmenu li {
     display:inline-block;
     list-style-type: none;
