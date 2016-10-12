@@ -52,10 +52,10 @@ var articles = {
         </div>
         <div id="contactbar">
             <ul>
-            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_100,w_100/vwsyto07zvpeqzfb46qt.jpg" sizes=auto> </a></li>
-            <li><a href="mailto:sreedivyanambiar@gmail.com" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/uqevk04zbiwggntoit6f.jpg" sizes=auto> </a></li>
-            <li><a href="https://github.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/p3ibcbzwtfpgy3h4ltjl.jpg" sizes=auto> </a></li>
-            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg" sizes=auto> </a></li>
+            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/vwsyto07zvpeqzfb46qt.jpg" sizes=auto> </a></li>
+            <li><a href="mailto:sreedivyanambiar@gmail.com" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/uqevk04zbiwggntoit6f.jpg" sizes=auto> </a></li>
+            <li><a href="https://github.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/p3ibcbzwtfpgy3h4ltjl.jpg" sizes=auto> </a></li>
+            <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/svvszaufolhr4jkwl7vz.jpg" sizes=auto> </a></li>
         </div> 
             </p>`
     }
