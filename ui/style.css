@@ -42,3 +42,9 @@ body {
     width: auto;
     text-align: center;
     }
+    
+    #contactbar li {
+    display:inline-block;
+    width: auto;
+    text-align: center;
+    }
