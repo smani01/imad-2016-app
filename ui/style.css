@@ -6,6 +6,10 @@ body {
 
 .center {
     text-align: center;
+    line-height: 1.45;
+    font-family: "open sans",sans-serif;
+    font-size: 20px;
+    color: #678;
 }
 
 .text-big {
