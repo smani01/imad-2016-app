@@ -29,3 +29,8 @@ body {
  .container {
     font-family: sans-serif;
 }
+
+li {
+    display:inline;
+    padding: 10px 40px;
+}
