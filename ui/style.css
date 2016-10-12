@@ -30,7 +30,7 @@ body {
     font-family: sans-serif;
 }
 
-li {
+.li {
     display:inline;
     padding: 10px 40px;
 }
