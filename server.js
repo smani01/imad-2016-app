@@ -45,7 +45,27 @@ var articles = {
         heading: 'Article Three',
         date:'Sep 15, 2016',
         content: `<p>
+        <a href="/">Home</a>
+        
+        <div class="center">
                  Let's get in touch.
+        </div>
+        <div id="contactbar">
+            <ul>
+            <li><a href="https://twitter.com/smani01/"> img-src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_540,w_720/svvszaufolhr4jkwl7vz.jpg" </a></li>
+            </ul>
+        </div> 
+                
+                <hr/>
+                <h3>
+                   ${heading}
+                </h3>
+                <div>
+                   ${date}
+                </div>
+                <div>
+                   ${content}
+                </div>
             </p>`
     }
 };
