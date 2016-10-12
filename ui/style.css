@@ -33,7 +33,7 @@ body {
 #horizontalmenu  {
       background-color: green;
       margin: 0;
-      padding: 0;
+      padding: 10px 40px;
 }
     
 #horizontalmenu li {
