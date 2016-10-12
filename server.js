@@ -45,16 +45,7 @@ var articles = {
         heading: 'Article Three',
         date:'Sep 15, 2016',
         content: `<p>
-                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                 This is the content of my first article.This is the content of my first article.
-            </p>
-            <p>
-                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                 This is the content of my first article.This is the content of my first article.
-            </p>
-            <p>
-                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                 This is the content of my first article.This is the content of my first article.
+                 Let's get in touch.
             </p>`
     }
 };
