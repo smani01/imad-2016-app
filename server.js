@@ -45,7 +45,7 @@ var articles = {
         heading: 'Article Three',
         date:'Sep 15, 2016',
         content: `<p>
-        <a href="/">Home</a>
+    
         
         <div class="center">
                  Let's get in touch.
