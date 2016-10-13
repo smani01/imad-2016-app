@@ -23,7 +23,7 @@ var articles = {
                          This is the content of my first article.This is the content of my first article.
                     </p>`
 },
-    'Article-Two': {
+    About: {
         title: 'About | Sreedivya',
         heading: 'About',
         date:'Sep 10, 2016',
