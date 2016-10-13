@@ -40,7 +40,7 @@ var articles = {
                  This is the content of my first article.This is the content of my first article.
             </p>`
 },
-    'Article-Three': {
+    Contact: {
         title: 'Contact | Sreedivya',
         heading: 'CONTACT',
         date:'Sep 15, 2016',
