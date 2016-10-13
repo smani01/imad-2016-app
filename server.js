@@ -28,12 +28,13 @@ var articles = {
         heading: 'About',
         date:'Sep 10, 2016',
         content: `<p>
-                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                 This is the content of my first article.This is the content of my first article.
+                 Hello ! Hello !! And Welcome !!!
+                 HI, I'M SREEDIVYA.  *BIG WAVE*
+                 
+                 SO PLEASED YOU HAVE STOPPED BY.
             </p>
             <p>
-                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                 This is the content of my first article.This is the content of my first article.
+                 Let me first introduce myself to you. Name - "Sreedivya". Friends call me "Sree" and my family calls me "Divya". I live in UAE with my husband and my darling son who just celebrated his first birthday. I had been working as a software Engineer in the IT industry for 7 + years as a System Analyst in Chennai and Trivandrum before I moved to UAE. I took my Bachelors degree and did my schooling in Kerala.
             </p>
             <p>
                  This is the content of my first article.This is the content of my first article.This is the content of my first article.
