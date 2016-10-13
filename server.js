@@ -37,8 +37,8 @@ var articles = {
                  Let me first introduce myself to you. Name - "Sreedivya". Friends call me "Sree" and my family calls me "Divya". I live in UAE with my husband and my darling son who just celebrated his first birthday. I had been working as a software Engineer in the IT industry for 7 + years as a System Analyst in Chennai and Trivandrum before I moved to UAE. I took my Bachelors degree and did my schooling in Kerala.
             </p>
             <p>
-                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
-                 This is the content of my first article.This is the content of my first article.
+                 Although my hobbies have changed over the years, my passion for cooking, interest in learning something new, love for music have remained the same and are growing. I am happy to stay being CRAFTY, LOVABLE, SYSTEMATIC and HUNGRY.
+                 So, here it is - My first blog. A fresh start. A new beginning. A creative space where I can jot down my ideas and share my thoughts.
             </p>`
 },
     Contact: {
