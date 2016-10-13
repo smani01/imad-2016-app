@@ -29,6 +29,10 @@ body {
     background-image:url(/ui/BI1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover; 
+    background-color: transparent; 
+    background-position: 50% 50%; 
+    padding-top: 225px; padding-bottom: 225px;
 }
 
  .container {
