@@ -39,6 +39,14 @@ var articles = {
             <p>
                  Although my hobbies have changed over the years, my passion for cooking, interest in learning something new, love for music have remained the same and are growing. I am happy to stay being CRAFTY, LOVABLE, SYSTEMATIC and HUNGRY.
                  So, here it is - My first blog. A fresh start. A new beginning. A creative space where I can jot down my ideas and share my thoughts.
+            </p>
+            <p>
+                And all kudos to the Team "IMAD" for their training in building this web application. I am a beginner and lokk forward to enhance my learning and continue blogging on my interests here. Also, a word of Thanks would not be just enough to appreciate my best buddy Sabi ( Sabeena Sudheer) who introduced me to this course on building our won web application from scratch. It had been fun to learn and share experiences.
+            </p>
+            <p>
+                I am hoping to make this an interactive place where readers can come to share their thoughts on my stories. You can let me know what you liked, what you did not, or what you might be interested in seeing here in future.
+                
+                Thank You for swinging by my blog. And pop back again soon. Bye !!
             </p>`
 },
     Contact: {
