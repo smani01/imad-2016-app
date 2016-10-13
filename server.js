@@ -45,7 +45,6 @@ var articles = {
             </p>
             <p>
                 I am hoping to make this an interactive place where readers can come to share their thoughts on my stories. You can let me know what you liked, what you did not, or what you might be interested in seeing here in future.
-                
                 Thank You for swinging by my blog. And pop back again soon. Bye !!
             </p>`
 },
