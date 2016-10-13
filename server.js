@@ -24,8 +24,8 @@ var articles = {
                     </p>`
 },
     'Article-Two': {
-        title: 'Article Two | Sreedivya',
-        heading: 'Article Two',
+        title: 'About | Sreedivya',
+        heading: 'About',
         date:'Sep 10, 2016',
         content: `<p>
                  This is the content of my first article.This is the content of my first article.This is the content of my first article.
