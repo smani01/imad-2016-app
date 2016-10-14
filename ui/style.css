@@ -43,6 +43,7 @@ body {
 #horizontalmenu li {
     display:inline-block;
     list-style-type: none;
+    margin: 0;
     padding: 10px 40px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
