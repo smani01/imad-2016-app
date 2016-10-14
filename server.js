@@ -113,7 +113,7 @@ app.get('/', function (req, res) {
 });
 
 
-app.get('/ui/BI1.jpg', function (req, res) {
+app.get('/ui/Sree.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Sree.jpg'));
 });
 
