@@ -55,7 +55,7 @@ var articles = {
     Contact: {
         title: 'Contact | Sreedivya',
         heading: 'CONTACT',
-        date:'Sep 15, 2016',
+        date:'displayDate',
         content: `<p>
     
         
