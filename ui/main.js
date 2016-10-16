@@ -52,3 +52,13 @@ submit.onclick = function(){
     request.send(null);
     
 };
+
+<script type="text/javascript">
+var newDate = new Date();
+newDate.setDate(newDate.getDate() + 1);
+
+//or insert it via javascript
+document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear();
+
+
+</script>
