@@ -68,5 +68,8 @@ body {
     padding: 10px 40px;
     width: auto;
     text-align: center;
-    background-color: #111;
     }
+    
+    #contactbar li a:hover {
+    background-color: #111;
+}
