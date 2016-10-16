@@ -70,6 +70,6 @@ body {
     text-align: center;
     }
     
-    #contactbar li a:hover {
+    #contactbar li :hover {
     background-color: #111;
 }
