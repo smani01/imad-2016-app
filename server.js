@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 var articles = {
     Blog: {
         title: 'Blog | Sreedivya',
-            heading: 'Blog',
+            heading: 'BLOG',
             date:'Sep 5, 2016',
             content: `<p>
                          This is the content of my first article.This is the content of my first article.This is the content of my first article.
@@ -25,7 +25,7 @@ var articles = {
 },
     About: {
         title: 'About | Sreedivya',
-        heading: 'About',
+        heading: 'ABOUT',
         date:'Sep 10, 2016',
         content: `<p>
                  Hello ! Hello !! And Welcome !!!
