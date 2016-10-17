@@ -122,16 +122,6 @@ function createTemplate(data) {
   <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
 
   <input type='submit' value='Submit' />  
-  
-</form>
-<form action="" method="post"> 
-Comments: 
-
-<textarea name="comments" id="comments"> 
-</textarea> 
-
-<input type="submit" value="Submit" /> 
-</form>
         </div>
             </body>
         </html>
