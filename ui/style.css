@@ -39,6 +39,11 @@ body {
     font-family: sans-serif;
 }
 
+
+ .container-articles {
+    text-align: center;
+    width: 70%;
+}
 #horizontalmenu ul {
     list-style-type: none;
     margin: 0;
