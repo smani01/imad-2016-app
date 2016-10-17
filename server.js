@@ -124,7 +124,7 @@ function createTemplate(data) {
   <input type='submit' value='Submit' />  
   
 </form>
-<form action="/page1 method="post"> 
+<form action="" method="post"> 
 Comments: 
 
 <textarea name="comments" id="comments"> 
@@ -149,7 +149,6 @@ app.get('/', function (req, res) {
 app.get('/ui/Sree.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Sree.jpg'));
 });
-
 
 var counter = 0;
 app.get('/counter', function (req, res) {
