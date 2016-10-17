@@ -29,6 +29,13 @@
         </div>
         <script type="text/javascript" src="/ui/main.js">
         </script>
+        <script type="text/javascript">
+var newDate = new Date();
+newDate.setDate(newDate.getDate() + 1);
+
+//or insert it via javascript
+document.getElementById('displayDate').innerHTML = (newDate.getMonth() + 1) + '/' + newDate.getDate() + '/' + newDate.getFullYear();
+</script>
 <span id="displayDate"></span>
     </body>
 </html>
