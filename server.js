@@ -124,7 +124,7 @@ function createTemplate(data) {
   <input type='submit' value='Submit' />  
   
 </form>
-<form action="/html/tags/html_form_tag_action.... method="post"> 
+<form action="/counter..method="post"> 
 Comments: 
 
 <textarea name="comments" id="comments"> 
