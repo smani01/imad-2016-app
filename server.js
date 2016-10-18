@@ -80,8 +80,8 @@ var articles = {
             <br>
             <br>
              
-           <input type="text" id="Comments" placeholder="Enter your comments.." ></input>
-           <input type="submit" value="Submit" id="submit_btn"></input>
+           <input type="text" id="Comments" placeholder="Enter your comments.." >
+           <input type="submit" value="Submit" id="submit_btn">
            <ul id="namelist">
            </ul>
            </div>
@@ -122,9 +122,9 @@ function createTemplate(data) {
                 </div>
                 <div>
                    ${Usercomments}
-                </div>
-                <script type="text/javascript" src="/ui/main.js">
+                        <script type="text/javascript" src="/ui/main.js">
         </script>
+                </div>
             </body>
         </html>
         `;
