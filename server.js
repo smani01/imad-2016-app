@@ -101,7 +101,8 @@ var articles = {
             <Button> Like </Button><span id="count">0</span> like this.
             <br>
             <br>
-            <Button> Comments </Button><br>
+            <fieldset>
+            <legend>Comment:</legend>
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>
@@ -110,6 +111,7 @@ var articles = {
            <input type="submit" value="Submit" id="submit_btn">
            <ul id="namelist">
            </ul>
+           </fieldset>
            </div>
            </p>`
     }
