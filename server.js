@@ -22,7 +22,7 @@ var articles = {
                          This is the content of my first article.This is the content of my first article.This is the content of my first article.
                          This is the content of my first article.This is the content of my first article.
                     </p>`,
-                    Usercomments:'<Button Id="counter">Like</Button> :- <span id="count">0</span> times'
+                    Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
 },
     About: {
         title: 'About | Sreedivya',
@@ -52,7 +52,7 @@ var articles = {
                 Cheers..
                 Sreedivya
             </p>`,
-            Usercomments:'<Button Id="counter">Like</Button> :- <span id="count">0</span> times'
+            Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
             
 },
     Contact: {
@@ -73,7 +73,7 @@ var articles = {
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/svvszaufolhr4jkwl7vz.jpg" sizes=auto> </a></li>
         </div> 
             </p>`,
-            Usercomments:'<Button Id="counter">Like</Button> :- <span id="count">0</span> times'
+            Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
     }
 };
 
