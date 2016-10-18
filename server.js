@@ -101,7 +101,10 @@ var articles = {
             <Button Id="counter">Likes</Button> <span id="count">0</span>
             <br>
             <br>
-             
+            First name:<br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"> 
            <input type="text" id="Comments" placeholder="Enter your comments.." >
            <input type="submit" value="Submit" id="submit_btn">
            <ul id="namelist">
