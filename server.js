@@ -159,6 +159,13 @@ app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
     
 });
 
+app.get('/:articleName', function (req, res) {
+    //articlename=article-one
+    //articles[articleName]={} content for the article one
+    var articleName = req.params.articleName;
+  res.send(createTemplate(articles[articleName]));
+}); 
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
@@ -167,12 +174,7 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-app.get('/:articleName', function (req, res) {
-    //articlename=article-one
-    //articles[articleName]={} content for the article one
-    var articleName = req.params.articleName;
-  res.send(createTemplate(articles[articleName]));
-});    
+   
 
 
 app.get('/ui/madi.png', function (req, res) {
