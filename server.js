@@ -88,7 +88,7 @@ var articles = {
         <div class="center">
                  Let's get in touch.
         </div>
-        <div id="contactbar">
+        <div id="contactbar";text-align:left>
             <ul>
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/vwsyto07zvpeqzfb46qt.jpg" sizes=auto> </a></li>
             <li><a href="mailto:sreedivyanambiar@gmail.com" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/uqevk04zbiwggntoit6f.jpg" sizes=auto> </a></li>
