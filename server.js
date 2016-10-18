@@ -108,7 +108,8 @@ var articles = {
             Last name:<br>
             <input type="text" name="lastname"><br>
             <br>
-           <input type="textarea" id="Comments" placeholder="Enter your comments.." ><br>
+           <input type="text" id="Comments" placeholder="Enter your comments.." ><br>
+           <br>
            <input type="submit" value="Submit" id="submit_btn">
            <ul id="namelist">
            </ul>
