@@ -71,6 +71,7 @@ body {
     
     #contactbar li {
     display:inline-block;
-       width: 120%;
+    padding: 10px 70px;
+       width: auto;
 }
     
