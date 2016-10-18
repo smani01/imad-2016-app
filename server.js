@@ -85,7 +85,7 @@ var articles = {
            <ul id="namelist">
            </ul>
            </div>
-           </p>`,
+           </p>`
     }
 };
 
