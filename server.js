@@ -98,7 +98,7 @@ var articles = {
             </p>`,
             Usercomments:`<p>
             <div class="footer">
-            <Button> Like </Button><span id="count">0</span> like this.
+            <Button id="counter"> Like </Button><span id="count">0</span> like this.
             <br>
             <br>
             <fieldset>
