@@ -22,7 +22,8 @@ var articles = {
                          This is the content of my first article.This is the content of my first article.This is the content of my first article.
                          This is the content of my first article.This is the content of my first article.
                     </p>`,
-                    Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
+                    Usercomments:'<Button Id="counter";display:block;>Likes</Button> :- <span id="count">0</span>'
+                    
 },
     About: {
         title: 'About | Sreedivya',
