@@ -43,7 +43,7 @@ var articles = {
                  So, here it is - My first blog. A fresh start. A new beginning. A creative space where I can jot down my ideas and share my thoughts.
             </p>
             <p>
-                And all kudos to the Team "IMAD" for their training in building this web application. I am a beginner and lokk forward to enhance my learning and continue blogging on my interests here. Also, a word of Thanks would not be just enough to appreciate my best buddy Sabi ( Sabeena Sudheer) who introduced me to this course on building our won web application from scratch. It had been fun to learn and share experiences.
+                And all kudos to the Team "IMAD" for their training in building this web application. I am a beginner and look forward to enhance my learning and continue blogging on my interests here. Also, a word of Thanks would not be just enough to appreciate my best buddy Sabi ( Sabeena Sudheer) who introduced me to this course on building our won web application from scratch. It had been fun to learn and share experiences.
             </p>
             <p>
                 I am hoping to make this an interactive place where readers can come to share their thoughts on my stories. You can let me know what you liked, what you did not, or what you might be interested in seeing here in future.
@@ -74,7 +74,18 @@ var articles = {
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/svvszaufolhr4jkwl7vz.jpg" sizes=auto> </a></li>
         </div> 
             </p>`,
-            Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
+            Usercomments:`<p>
+            <div class="footer">
+            <Button Id="counter">Likes</Button> :- <span id="count">0</span>
+            <br>
+            <br>
+             
+           <input type="text" id="Comments" placeholder="Enter your comments.." ></input>
+           <input type="submit" value="Submit" id="submit_btn"></input>
+           <ul id="namelist">
+           </ul>
+           </div>
+           </p>`,
     }
 };
 
