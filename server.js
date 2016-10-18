@@ -144,7 +144,6 @@ function createTemplate(data) {
                 </div>
                 <br>
                 <br>
-                <br>
                 <hr>
                 <div>
                    ${Usercomments}
