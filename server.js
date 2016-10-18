@@ -103,12 +103,6 @@ function createTemplate(data) {
                 <div>
                    ${content}
                 </div>
-              <div class="footer">
-            This button <Button Id="counter">ClickMe!</Button> has been clicked <span id="count">0</span> times.
-         <input type="text" id="name" placeholder="name" ></input>
-         <input type="submit" value="submit" id="submit_btn"></input>
-         <ul id="namelist">
-         </ul>
          <form method='post'>
   NAME: <input type='text' name='name' id='name' /><br />
 
@@ -122,7 +116,6 @@ function createTemplate(data) {
   <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
 
   <input type='submit' value='Submit' />  
-        </div>
             </body>
         </html>
         `;
