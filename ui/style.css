@@ -41,8 +41,7 @@ body {
 
 
  .container-article {
-    width: 100%;
-    text-align: left;
+        padding:0 30px;
 }
 
 #horizontalmenu ul {
