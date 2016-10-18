@@ -98,8 +98,7 @@ var articles = {
             </p>`,
             Usercomments:`<p>
             <div class="footer">
-            <Button> Like </Button><br>
-            <span id="count">0</span> like this.
+            <Button> Like </Button><span id="count">0</span> like this.
             <br>
             <br>
             <Button> Comments </Comments><br>
@@ -107,7 +106,7 @@ var articles = {
             <input type="text" name="firstname"><br>
             Last name:<br>
             <input type="text" name="lastname"><br>
-           <input type="text" id="Comments" placeholder="Enter your comments.." >
+           <input type="text" id="Comments" placeholder="Enter your comments.." ><br>
            <input type="submit" value="Submit" id="submit_btn">
            <ul id="namelist">
            </ul>
