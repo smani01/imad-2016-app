@@ -88,7 +88,7 @@ var articles = {
         <div class="center">
                  Let's get in touch.
         </div>
-        <div id="contactbar";text-align:left>
+        <div id="contactbar">
             <ul>
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/vwsyto07zvpeqzfb46qt.jpg" sizes=auto> </a></li>
             <li><a href="mailto:sreedivyanambiar@gmail.com" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/uqevk04zbiwggntoit6f.jpg" sizes=auto> </a></li>
@@ -127,13 +127,13 @@ function createTemplate(data) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />  
                 <link href="/ui/style.css" rel="stylesheet" />
             </head>
-            <body>
+            <body class=container-article>
              <div class="container-articles">
                 
                     <a href="/">Home</a>
                 </div>
                 <hr/>
-                <h3 class=container-article>
+                <h3>
                    ${heading}
                 </h3>
                 <div>
