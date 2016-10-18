@@ -142,6 +142,10 @@ function createTemplate(data) {
                 <div>
                    ${content}
                 </div>
+                <br>
+                <br>
+                <br>
+                <hr>
                 <div>
                    ${Usercomments}
                         <script type="text/javascript" src="/ui/main.js">
