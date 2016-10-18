@@ -101,7 +101,7 @@ var articles = {
             <Button> Like </Button><span id="count">0</span> like this.
             <br>
             <br>
-            <Button> Comment </Comments><br>
+            <Button> Comments </Button><br>
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>
