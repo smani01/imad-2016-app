@@ -98,9 +98,11 @@ var articles = {
             </p>`,
             Usercomments:`<p>
             <div class="footer">
-            <Button Id="counter">Likes</Button> <span id="count">0</span>
+            <Button> Like </Button> . 
+            <span id="count">0</span> like this.
             <br>
             <br>
+            <Button> Comments </Comments>
             First name:<br>
             <input type="text" name="firstname"><br>
             Last name:<br>
