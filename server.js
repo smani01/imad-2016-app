@@ -53,6 +53,7 @@ var articles = {
                 Sreedivya
             </p>`,
             Usercomments:'<Button Id="counter">Like</Button> :- <span id="count">0</span> times'
+            
 },
     Contact: {
         title: 'Contact | Sreedivya',
@@ -110,6 +111,8 @@ function createTemplate(data) {
                 <div>
                    ${Usercomments}
                 </div>
+                <script type="text/javascript" src="/ui/main.js">
+        </script>
             </body>
         </html>
         `;
