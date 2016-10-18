@@ -22,7 +22,18 @@ var articles = {
                          This is the content of my first article.This is the content of my first article.This is the content of my first article.
                          This is the content of my first article.This is the content of my first article.
                     </p>`,
-                    Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
+                    Usercomments:`<p>
+            <div class="footer">
+            <Button Id="counter">Likes</Button> <span id="count">0</span>
+            <br>
+            <br>
+             
+           <input type="text" id="Comments" placeholder="Enter your comments.." >
+           <input type="submit" value="Submit" id="submit_btn">
+           <ul id="namelist">
+           </ul>
+           </div>
+           </p>`
                     
 },
     About: {
@@ -53,7 +64,18 @@ var articles = {
                 Cheers..
                 Sreedivya
             </p>`,
-            Usercomments:'<Button Id="counter">Likes</Button> :- <span id="count">0</span>'
+            Usercomments:`<p>
+            <div class="footer">
+            <Button Id="counter">Likes</Button> <span id="count">0</span>
+            <br>
+            <br>
+             
+           <input type="text" id="Comments" placeholder="Enter your comments.." >
+           <input type="submit" value="Submit" id="submit_btn">
+           <ul id="namelist">
+           </ul>
+           </div>
+           </p>`
             
 },
     Contact: {
