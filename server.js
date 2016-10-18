@@ -21,7 +21,8 @@ var articles = {
                     <p>
                          This is the content of my first article.This is the content of my first article.This is the content of my first article.
                          This is the content of my first article.This is the content of my first article.
-                    </p>`
+                    </p>`,
+                    Usercomments:'Like <Button Id="counter">ClickMe!</Button> :- <span id="count">0</span> times'
 },
     About: {
         title: 'About | Sreedivya',
@@ -50,7 +51,8 @@ var articles = {
                 <br>
                 Cheers..
                 Sreedivya
-            </p>`
+            </p>`,
+            Usercomments:'Like <Button Id="counter">ClickMe!</Button> :- <span id="count">0</span> times'
 },
     Contact: {
         title: 'Contact | Sreedivya',
@@ -69,7 +71,8 @@ var articles = {
             <li><a href="https://github.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/p3ibcbzwtfpgy3h4ltjl.jpg" sizes=auto> </a></li>
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/svvszaufolhr4jkwl7vz.jpg" sizes=auto> </a></li>
         </div> 
-            </p>`
+            </p>`,
+            Usercomments:'Like <Button Id="counter">ClickMe!</Button> :- <span id="count">0</span> times'
     }
 };
 
@@ -102,6 +105,9 @@ function createTemplate(data) {
                 </div>
                 <div>
                    ${content}
+                </div>
+                <div>
+                   ${Usercomments}
                 </div>
             </body>
         </html>
