@@ -137,7 +137,6 @@ function createTemplate(data) {
             </head>
             <body class=container-article>
              <div class="container-articles">
-                
                     <a href="/">Home</a>
                 </div>
                 <hr/>
