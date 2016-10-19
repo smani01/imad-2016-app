@@ -42,8 +42,14 @@ body {
 }
 
 a {
-    color: white;
+    color: black;
     font-size:100%;
+}
+
+.container-article {
+        padding:20px;
+        margin: 0 auto;
+        max-width: 500px;
 }
 
  
