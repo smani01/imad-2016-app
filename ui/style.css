@@ -34,8 +34,11 @@ body {
     padding-top: 225px; padding-bottom: 225px
 }
 
- .container {
+ .header {
     font-family: sans-serif;
+    text-align:center;
+    font-style: italic;
+    color: #fff;
 }
 
 
@@ -52,18 +55,17 @@ body {
     top: 0;
     width: 100%;
     text-align: center; 
-    color: #fff
+    color: #fff;
 }
 
 #horizontalmenu li {
-    display:inline-block;
+    display:inline;
     list-style-type: none;
-    padding: 10px 40px;
+    padding: 0px 10px 0px 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-weight: bolder;
     color: white;
-    width: auto;
     text-align: center; 
 }
     
