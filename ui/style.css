@@ -49,6 +49,7 @@ a {
  .container-article {
         padding:0 30px;
         margin: 0 auto;
+        max-width: 500px;
 }
 
 #horizontalmenu ul {
