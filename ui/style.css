@@ -52,7 +52,13 @@ a {
         max-width: 800px;
 }
 
- 
+ @media (max-width:800px) {
+    body {
+     background:red;
+         }
+}
+
+
 #horizontalmenu ul {
     list-style-type: none;
     margin: 0;
