@@ -41,6 +41,9 @@ body {
     color: #fff;
 }
 
+a {
+    color: white;
+}
 
  .container-article {
         padding:0 30px;
