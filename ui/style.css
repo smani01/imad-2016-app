@@ -31,6 +31,7 @@ body {
     background-attachment: fixed;
     background-size: cover; 
     background-position: center; 
+    margin:0 auto;
     padding-top: 225px; padding-bottom: 225px
 }
 
