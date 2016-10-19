@@ -155,9 +155,9 @@ function createTemplate(data) {
                 <hr>
                 <div>
                    ${Usercomments}
-                        <script type="text/javascript" src="/ui/main.js">
-        </script>
                 </div>
+               <script type="text/javascript" src="/ui/main.js">
+        </script>
             </body>
         </html>
         `;
