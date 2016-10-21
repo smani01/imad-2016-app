@@ -111,7 +111,7 @@ var articles = {
            <input type="text" id="Comments" placeholder="Enter your comments.." ><br>
            <br>
            <input type="submit" value="Submit" id="submit_btn">
-           <ul id="namelist">
+           <ul id="commentlist">
            </ul>
            </fieldset>
            </div>
@@ -178,6 +178,27 @@ var counter = 0;
 app.get('/counter', function (req, res) {
     counter = counter + 1;
     res.send(counter.toString());
+});
+
+
+var comments = [];
+
+app.get('/submit-comment', function(req, res) { 
+  // Get the name from the request
+  var comment = req.query.comment;//query does  is -> url ://submit-comment?comment=xxxxx;
+    if (comments === undefined)
+	comments = [];	
+	comments.push(comment);
+   res.send(JSON.stringify(comments));
+});
+
+app.get('/fetchcomments', function(req, res) {
+  var comment = req.query.comment;
+	if (comments != undefined)
+	  res.send(JSON.stringify(comments));
+	else {
+	  res.send("null");
+	}
 });
 
 var names = [];
