@@ -78,7 +78,7 @@ subcomment.onclick = function(){
                     list_cmnt += '<li>' + comments[j] + '</li>';
                 }
                 var ul1 = document.getElementById('commentlist');
-                ul.innerHTML = list_cmnt;
+                ul1.innerHTML = list_cmnt;
             }
         }
         //Not done yet 
