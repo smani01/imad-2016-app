@@ -1,6 +1,6 @@
 var button = document.getElementById('counter');
 
-if (button){
+if (button !== undefined){
 button.onclick = function() {
     //Create a request object
     var request = new XMLHttpRequest();
@@ -27,7 +27,7 @@ button.onclick = function() {
 
 var submit = document.getElementById('submit_btn');
 
-if (submit) {
+if (submit !== undefined) {
 submit.onclick = function(){
   //Make a request to the server and send the name
      var request = new XMLHttpRequest();
@@ -62,7 +62,7 @@ submit.onclick = function(){
 
 var subcomment = document.getElementById('submit_cmnt');
 
-if (subcomment) {
+if (subcomment !== undefined) {
 subcomment.onclick = function(){
   //Make a request to the server and send the name
      var request1 = new XMLHttpRequest();
