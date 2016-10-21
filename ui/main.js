@@ -53,3 +53,34 @@ submit.onclick = function(){
     
 };
 
+//Submit a comment
+
+var subcomment = document.getElementById('submit_cmnt');
+subcomment.onclick = function(){
+  //Make a request to the server and send the name
+     var request1 = new XMLHttpRequest();
+    
+    //capture the response and store it in a variable
+    request1.onreadystatechange = function(){
+        if (request1.readyState === XMLHttpRequest.DONE){
+            //Take some action
+            if (request1.status === 200){
+                var comments = request1.responseText;
+                comments = JSON.parse(comments);
+                for (var i=0;i < comments.length; i++){
+                    list_cmnt += '<li>' + comments[i] + '</li>';
+                }
+                var ul1 = document.getElementById('commentlist');
+                ul.innerHTML = list_cmnt;
+            }
+        }
+        //Not done yet 
+                var list_cmnt = '';
+    };
+    //make the request
+    var commentInput = document.getElementById('Comments');
+    var comment=commentInput.value;
+    request1.open('GET','http://smani01.imad.hasura-app.io/submit-comment?comment=' + comment,true);
+    request1.send(null);
+    
+};
