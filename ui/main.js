@@ -28,7 +28,7 @@ button.onclick = function() {
 var submit = document.getElementById('submit_btn');
 
 if (submit !== undefined) {
-submit.onclick = function(){
+submit.click( function(){
   //Make a request to the server and send the name
      var request = new XMLHttpRequest();
     
@@ -48,7 +48,7 @@ submit.onclick = function(){
             }
         }
         //Not done yet 
-    };
+    });
     //make the request
     var nameInput = document.getElementById('Comments');
     var name=nameInput.value;
