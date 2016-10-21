@@ -194,7 +194,7 @@ app.get('/submit-comment', function(req, res) {
 
 app.get('/fetchcomments', function(req, res) {
   var comment = req.query.comment;
-	if (comments != undefined)
+	if (comments !== undefined)
 	  res.send(JSON.stringify(comments));
 	else {
 	  res.send("null");
