@@ -74,8 +74,8 @@ subcomment.onclick = function(){
             if (request1.status === 200){
                 var comments = request1.responseText;
                 comments = JSON.parse(comments);
-                for (var i=0;i < comments.length; i++){
-                    list_cmnt += '<li>' + comments[i] + '</li>';
+                for (var j=0;j < comments.length; j++){
+                    list_cmnt += '<li>' + comments[j] + '</li>';
                 }
                 var ul1 = document.getElementById('commentlist');
                 ul.innerHTML = list_cmnt;
