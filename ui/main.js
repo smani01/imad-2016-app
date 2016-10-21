@@ -1,5 +1,6 @@
 var button = document.getElementById('counter');
 
+if (button){
 button.onclick = function() {
     //Create a request object
     var request = new XMLHttpRequest();
@@ -20,10 +21,13 @@ button.onclick = function() {
     request.open('GET','http://smani01.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+}
 
 //Submit name
 
 var submit = document.getElementById('submit_btn');
+
+if (submit) {
 submit.onclick = function(){
   //Make a request to the server and send the name
      var request = new XMLHttpRequest();
@@ -52,10 +56,13 @@ submit.onclick = function(){
     request.send(null);
     
 };
+}
 
 //Submit a comment
 
 var subcomment = document.getElementById('submit_cmnt');
+
+if (subcomment) {
 subcomment.onclick = function(){
   //Make a request to the server and send the name
      var request1 = new XMLHttpRequest();
@@ -84,3 +91,5 @@ subcomment.onclick = function(){
     request1.send(null);
     
 };
+
+}
