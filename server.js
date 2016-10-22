@@ -193,7 +193,6 @@ app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
 });
 
 var comments = [];
-
 app.get('/submit-comment', function(req, res) { 
   // Get the name from the request
   var comment = req.query.comment;//query does  is -> url ://submit-comment?comment=xxxxx;
