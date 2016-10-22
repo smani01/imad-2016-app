@@ -50,7 +50,7 @@ submit.onclick=( function(){
         //Not done yet 
     };
     //make the request
-    var nameInput = document.getElementById('names');
+    var nameInput = document.getElementById('name');
     var name=nameInput.value;
     request.open('GET','http://smani01.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
@@ -85,7 +85,7 @@ subcomment.onclick = ( function(){
                 var list_cmnt = '';
     };
     //make the request
-    var commentInput = document.getElementById('Comments');
+    var commentInput = document.getElementById('Comment');
     var comment=commentInput.value;
     request1.open('GET','http://smani01.imad.hasura-app.io/submit-comment?comment=' + comment,true);
     request1.send(null);
