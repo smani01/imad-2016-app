@@ -181,6 +181,17 @@ app.get('/counter', function (req, res) {
 });
 
 
+var names = [];
+app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
+    var name=req.query.name; // 1000
+    
+    names.push(name);
+    //JSON - Javascript Object Notation
+    
+    res.send(JSON.stringify(names)); 
+    
+});
+
 var comments = [];
 
 app.get('/submit-comment', function(req, res) { 
@@ -201,16 +212,6 @@ app.get('/fetchcomments', function(req, res) {
 	}
 });
 
-var names = [];
-app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
-    var name=req.query.name; // 1000
-    
-    names.push(name);
-    //JSON - Javascript Object Notation
-    
-    res.send(JSON.stringify(names)); 
-    
-});
 
 app.get('/:articleName', function (req, res) {
     //articlename=article-one
