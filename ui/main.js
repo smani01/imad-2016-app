@@ -28,7 +28,7 @@ button.onclick = function() {
 var submit = document.getElementById('submit_btn');
 
 if (submit !== undefined) {
-submit.onclick=( function(){
+submit.onclick = function(){
   //Make a request to the server and send the name
      var request = new XMLHttpRequest();
     
@@ -55,7 +55,7 @@ submit.onclick=( function(){
     request.open('GET','http://smani01.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
     
-});
+};
 }
 
 //Submit a comment
@@ -63,7 +63,7 @@ submit.onclick=( function(){
 var subcomment = document.getElementById('submit_cmnt');
 
 if (subcomment !== undefined) {
-subcomment.onclick = ( function(){
+subcomment.onclick = function(){
   //Make a request to the server and send the name
      var request1 = new XMLHttpRequest();
     
@@ -90,6 +90,6 @@ subcomment.onclick = ( function(){
     request1.open('GET','http://smani01.imad.hasura-app.io/submit-comment?comment=' + comment,true);
     request1.send(null);
     
-});
+};
 
 }
