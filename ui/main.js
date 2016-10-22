@@ -50,7 +50,7 @@ submit.onclick=( function(){
         //Not done yet 
     };
     //make the request
-    var nameInput = document.getElementById('Comments');
+    var nameInput = document.getElementById('names');
     var name=nameInput.value;
     request.open('GET','http://smani01.imad.hasura-app.io/submit-name?name=' + name,true);
     request.send(null);
