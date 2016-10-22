@@ -28,7 +28,7 @@ button.onclick = function() {
 var submit = document.getElementById('submit_btn');
 
 if (submit !== undefined) {
-submit.click( function(){
+submit.onclick( function(){
   //Make a request to the server and send the name
      var request = new XMLHttpRequest();
     
