@@ -58,7 +58,7 @@ submit.onclick = function() {
 };
 }
 
-//Submit a comment
+/*Submit a comment
 
 var subcomment = document.getElementById('submit_cmnt');
 
@@ -93,4 +93,4 @@ subcomment.onclick = function(){
     
 };
 
-}
+}*/
