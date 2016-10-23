@@ -51,20 +51,7 @@ var articles = {
                 <br>
                 Cheers..
                 Sreedivya
-            </p>`,
-            Usercomments:`<p>
-            <div class="footer">
-            <Button Id="counter">Likes</Button> <span id="count">0</span>
-            <br>
-            <br>
-             
-           <input type="text" id="Comment" placeholder="Enter your comments">
-           <input type="submit" value="Submit" id="submit_cmnt">
-           <ul1 id="commentlist">
-           </ul1>
-           </div>
-           </p>`
-            
+            </p>`
 },
     Contact: {
         title: 'Contact | Sreedivya',
@@ -125,10 +112,10 @@ function createTemplate(data) {
             <br>
             <br>
              
-           <input type="text" id="name" placeholder="Enter your comments">
-           <input type="submit" value="Submit" id="submit_btn">
-           <ul id="namelist">
-           </ul>
+           <input type="text" id="Comment" placeholder="Enter your comments">
+           <input type="submit" value="Submit" id="submit_cmnt">
+           <ul1 id="commentlist">
+           </ul1>
            </div>
               <script type="text/javascript" src="/ui/main.js">
         </script>
