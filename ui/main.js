@@ -1,6 +1,6 @@
 var button = document.getElementById('counter');
 
-if (button !== undefined) {
+if (counter !== undefined) {
 button.onclick = function() {
     //Create a request object
     var request = new XMLHttpRequest();
