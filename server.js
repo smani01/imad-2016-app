@@ -21,19 +21,7 @@ var articles = {
                     <p>
                          This is the content of my first article.This is the content of my first article.This is the content of my first article.
                          This is the content of my first article.This is the content of my first article.
-                    </p>`,
-                    Usercomments:`<p>
-            <div class="footer">
-            <Button Id="counter">Likes</Button> <span id="count">0</span>
-            <br>
-            <br>
-             
-           <input type="text" id="name" placeholder="Enter your comments">
-           <input type="submit" value="Submit" id="submit_btn">
-           <ul id="namelist">
-           </ul>
-           </div>
-           </p>`
+                    </p>`
                     
 },
     About: {
@@ -95,27 +83,7 @@ var articles = {
             <li><a href="https://github.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/p3ibcbzwtfpgy3h4ltjl.jpg" sizes=auto> </a></li>
             <li><a href="https://twitter.com/smani01/" target="_blank"> <img src ="http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_200,w_200/svvszaufolhr4jkwl7vz.jpg" sizes=auto> </a></li>
         </div> 
-            </p>`,
-            Usercomments:`<p>
-            <div class="footer">
-            <Button id="counter"> Like </Button><span id="count">0</span> like this.
-            <br>
-            <br>
-            <fieldset>
-            <legend>Comment:</legend>
-            First name:<br>
-            <input type="text" name="firstname"><br>
-            Last name:<br>
-            <input type="text" name="lastname"><br>
-            <br>
-           <input type="text" id="comment" placeholder="Enter your comments"><br>
-           <br>
-           <input type="submit" value="Submit" id="submit_cmnt">
-           <ul1 id="commentlist">
-           </ul1>
-           </fieldset>
-           </div>
-           </p>`
+            </p>`
     }
 };
 
@@ -152,10 +120,17 @@ function createTemplate(data) {
                 <br>
                 <br>
                 <hr>
-                <div>
-                   ${Usercomments}
-                </div>
-               <script type="text/javascript" src="/ui/main.js">
+            <div class="footer">
+            <Button Id="counter">Likes</Button> <span id="count">0</span>
+            <br>
+            <br>
+             
+           <input type="text" id="name" placeholder="Enter your comments">
+           <input type="submit" value="Submit" id="submit_btn">
+           <ul id="namelist">
+           </ul>
+           </div>
+              <script type="text/javascript" src="/ui/main.js">
         </script>
             </body>
         </html>
