@@ -118,7 +118,7 @@ function createTemplate(data) {
               
         </div>
             </body>
-            <script type="text/javascript" src="/ui/main.js">
+            <script type="text/javascript" src="/ui/comment.js">
         </script>
         </html>
         `;
@@ -190,7 +190,9 @@ app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-
+app.get('/ui/comment.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'comment.js'));
+});
 
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
