@@ -61,37 +61,36 @@ submit.onclick = function() {
 
 //Submit a comment
 
-var subcomment = document.getElementById('submit_cmnt');
-
-if (subcomment !== undefined) {
-subcomment.onclick = function(){
-  //Make a request to the server and send the name
-     var request1 = new XMLHttpRequest();
+var commentBtn = document.getElementById('comment_btn');
+commentBtn.onclick = function (){
+   var commentInput = document.getElementById('comment');
+    var comment = commentInput.value;
+    console.log('comment is : ',comment);
     
-    //capture the response and store it in a variable
-    request1.onreadystatechange = function(){
-        if (request1.readyState === XMLHttpRequest.DONE){
-            //Take some action
-            if (request1.status === 200){
-                var comments = request1.responseText;
+
+    var request = new XMLHttpRequest();
+
+    request.onreadystatechange = function(){
+        if(request.readyState === XMLHttpRequest.DONE){
+            if(request.status === 200){
+                var comments = request.responseText;
+                console.log('comments1 is : ',comments);
                 comments = JSON.parse(comments);
-                 list_cmnt = '';
-                for (var j=0;j < comments.length; j++){
-                    list_cmnt += '<li>' + comments[j] + '</li>';
+                console.log('comments is : ',comments);
+                var comment_list='';
+                for(var i=0;i<comments.length;i++){
+                    var t=i+1;
+                    comment_list+='<p>'+'comment '+t+': '+comments[i]+'</p>'+ '<hr>' ;
                 }
-                var ul1 = document.getElementById('commentlist');
-                ul1.innerHTML = list_cmnt;
+                var commentz = document.getElementById('comments');
+                commentz.innerHTML = comment_list;
             }
+            
         }
-        //Not done yet 
-               
-    };
-    //make the request
-    var commentInput = document.getElementById('comment');
-    var comment=commentInput.value;
-    request1.open('GET','http://smani01.imad.hasura-app.io/submit-comment?comment=' + comment,true);
-    request1.send(null);
-    
-};
 
-}
+       
+    };
+   request.open('GET','http://smani01.imad.hasura-app.io/submit_comment?comment='+comment,true);
+   request.send(null);
+
+};//button onclick function ends
