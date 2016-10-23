@@ -107,19 +107,19 @@ function createTemplate(data) {
                 <br>
                 <br>
                 <hr>
-            <div class="footer">
-            <Button Id="counter">Likes</Button> <span id="count">0</span>
-            <br>
-            <br>
-             
-           <input type="text" id="Comment" placeholder="Enter your comments">
-           <input type="submit" value="Submit" id="submit_cmnt">
-           <ul1 id="commentlist">
-           </ul1>
            </div>
-              <script type="text/javascript" src="/ui/main.js">
-        </script>
+             <label>Enter comments below</label></br>
+             <textarea name='comment' id='comment'></textarea><br />
+              <input type="submit" id="comment_btn" value="Submit" class="btn btn-warning"></input>
+              <hr>
+              <p>Comments :<br>
+                <span id="comments"></span>
+              </p>
+              
+        </div>
             </body>
+            <script type="text/javascript" src="/ui/main.js">
+        </script>
         </html>
         `;
   return htmlTemplate;
@@ -154,14 +154,15 @@ app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
     
 });
 
-var comments = [];
-app.get('/submit-comment', function(req, res) { 
-  // Get the name from the request
-  var comment = req.query.comment;//query does  is -> url ://submit-comment?comment=xxxxx;
-    if (comments === undefined)
-	comments = [];	
-	comments.push(comment);
-   res.send(JSON.stringify(comments));
+var comments=[];
+app.get('/submit_comment',function(req,res){
+    //to get the comments
+ var comment=req.query.comment;
+ comments.push(comment);
+ console.log('comments is: ',comments);
+ res.send(JSON.stringify(comments));
+
+    //to render those comments on the page
 });
 
 app.get('/fetchcomments', function(req, res) {
