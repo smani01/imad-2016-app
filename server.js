@@ -110,7 +110,7 @@ var articles = {
             <br>
            <input type="text" id="comment" placeholder="Enter your comments"><br>
            <br>
-           <input type="submit" value="Submit" id="subcomment">
+           <input type="submit" value="Submit" id="submit_cmnt">
            <ul1 id="commentlist">
            </ul1>
            </fieldset>
