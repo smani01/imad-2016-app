@@ -6,7 +6,6 @@ if (comment_btn !== undefined) {
 commentBtn.onclick = function (){
    var commentInput = document.getElementById('comment');
     var comment = commentInput.value;
-    console.log('comment is : ',comment);
     
 
     var request = new XMLHttpRequest();
@@ -34,6 +33,6 @@ commentBtn.onclick = function (){
    request.open('GET','http://smani01.imad.hasura-app.io/submit_comment?comment='+comment,true);
    request.send(null);
 
-};//button onclick function ends
+};
 
 }
