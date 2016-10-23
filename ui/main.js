@@ -1,6 +1,6 @@
 var button = document.getElementById('counter');
 
-if (counter !== undefined) {
+if (button !== undefined) {
 button.onclick = function() {
     //Create a request object
     var request = new XMLHttpRequest();
@@ -62,6 +62,8 @@ submit.onclick = function() {
 //Submit a comment
 
 var commentBtn = document.getElementById('comment_btn');
+
+if (comment_btn !== undefined) {
 commentBtn.onclick = function (){
    var commentInput = document.getElementById('comment');
     var comment = commentInput.value;
@@ -94,3 +96,5 @@ commentBtn.onclick = function (){
    request.send(null);
 
 };//button onclick function ends
+
+}
