@@ -28,7 +28,7 @@ var articles = {
             <br>
             <br>
              
-           <input type="text" id="name" placeholder="Enter your comments..">
+           <input type="text" id="name" placeholder="Enter your comments">
            <input type="submit" value="Submit" id="submit">
            <ul id="namelist">
            </ul>
@@ -70,7 +70,7 @@ var articles = {
             <br>
             <br>
              
-           <input type="text" id="Comment" placeholder="Enter your comments..">
+           <input type="text" id="Comment" placeholder="Enter your comments">
            <input type="submit" value="Submit" id="subcomment">
            <ul1 id="commentlist">
            </ul1>
@@ -108,7 +108,7 @@ var articles = {
             Last name:<br>
             <input type="text" name="lastname"><br>
             <br>
-           <input type="text" id="comment" placeholder="Enter your comments.."><br>
+           <input type="text" id="comment" placeholder="Enter your comments"><br>
            <br>
            <input type="submit" value="Submit" id="subcomment">
            <ul1 id="commentlist">
