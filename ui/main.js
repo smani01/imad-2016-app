@@ -23,7 +23,7 @@ button.onclick = function() {
 };
 }
 
-//Submit name
+/*Submit name
 
 var submit = document.getElementById('submit_btn');
 
@@ -56,7 +56,7 @@ submit.onclick = function() {
     request.send(null);
     
 };
-}
+}*/
 
 
 //Submit a comment
