@@ -71,7 +71,7 @@ var articles = {
             <br>
              
            <input type="text" id="Comments" placeholder="Enter your comments.." >
-           <input type="submit" value="enter" id="submit_cmnt">
+           <input type="submit" value="Submit" id="submit_cmnt">
            <ul1 id="commentlist">
            </ul1>
            </div>
