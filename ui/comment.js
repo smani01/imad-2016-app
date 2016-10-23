@@ -14,9 +14,7 @@ commentBtn.onclick = function (){
         if(request.readyState === XMLHttpRequest.DONE){
             if(request.status === 200){
                 var comments = request.responseText;
-                console.log('comments1 is : ',comments);
                 comments = JSON.parse(comments);
-                console.log('comments is : ',comments);
                 var comment_list='';
                 for(var i=0;i<comments.length;i++){
                     var t=i+1;
