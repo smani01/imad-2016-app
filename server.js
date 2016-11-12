@@ -131,6 +131,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/test-db', function (req, res) {
+    //make a select request
+    //return response with the results
+  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+});
+
 
 app.get('/ui/Sree.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Sree.jpg'));
