@@ -37,7 +37,7 @@ function loadCommentForm () {
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({comment: comment}));  
         submit.value = 'Submitting...';
-        
+       
     };
 }
 
