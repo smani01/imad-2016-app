@@ -138,7 +138,7 @@ loadLogin();
 loadArticles();
 
 
-var button = document.getElementById('counter');
+/*var button = document.getElementById('counter');
 
 if (button !== undefined) {
 button.onclick = function() {
@@ -163,7 +163,7 @@ button.onclick = function() {
 };
 }
 
-/*Submit name
+Submit name
 
 var submit = document.getElementById('submit_btn');
 
