@@ -39,34 +39,31 @@ function createTemplate(data) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />  
                 <link href="/ui/style.css" rel="stylesheet" />
             </head>
-            <body>
-             <div class="container-article">
-                <div>
-                    <a href="/">Home</a>
-                </div>
-                <hr/>
-                <h3>
-                   ${heading}
-                </h3>
-                <div>
-                   ${date.toDateString()}
-                </div>
-                <div>
-                   ${content}
-                </div>
-                <br>
-                <br>
-                <hr>
-                
-                <h4>Comments</h4>
+          <body>
+          <div class="container-article">
+              <div>
+                  <a href="/">Home</a>
+              </div>
+              <hr/>
+              <h3>
+                  ${heading}
+              </h3>
+              <div>
+                  ${date.toDateString()}
+              </div>
+              <div>
+                ${content}
+              </div>
+              <hr/>
+              <h4>Comments</h4>
               <div id="comment_form">
               </div>
               <div id="comments">
                 <center>Loading comments...</center>
               </div>
-             </div>
+          </div>
           <script type="text/javascript" src="/ui/article.js"></script>
-            </body>
+      </body>
         </html>
         `;
   return htmlTemplate;
