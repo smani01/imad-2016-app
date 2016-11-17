@@ -65,20 +65,8 @@ function createTemplate(data) {
               </div>
           </div>
           <script type="text/javascript" src="/ui/article.js"></script>
-          
-           </div>
-             <label>Enter comments below</label></br>
-             <textarea name='comment' id='comment'></textarea><br />
-              <input type="submit" id="comment_btn" value="Submit" class="btn btn-warning"></input>
-              <hr>
-              <p>Comments :<br>
-                <span id="comments"></span>
-              </p>
-              
         </div>
             </body>
-            <script type="text/javascript" src="/ui/comment.js">
-        </script>
         </html>
         `;
   return htmlTemplate;
@@ -252,18 +240,6 @@ app.get('/submit-name',function (req, res) { //URL:/submit-name?name=xxxx
     res.send(JSON.stringify(names)); 
     
 });
-
-var comments=[];
-app.get('/submit_comment',function(req,res){
-    //to get the comments
- var comment=req.query.comment;
- comments.push(comment);
- res.send(JSON.stringify(comments));
-
-    //to render those comments on the page
-});
-
-
 
 
 app.get('/articles/:articleName', function (req, res) {
