@@ -39,7 +39,8 @@ function createTemplate(data) {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />  
                 <link href="/ui/style.css" rel="stylesheet" />
             </head>
-            <body class="container-article">
+            <body>
+             <div class="container-article">
                 <div>
                     <a href="/">Home</a>
                 </div>
@@ -63,6 +64,7 @@ function createTemplate(data) {
               <div id="comments">
                 <center>Loading comments...</center>
               </div>
+             </div>
           <script type="text/javascript" src="/ui/article.js"></script>
             </body>
         </html>
