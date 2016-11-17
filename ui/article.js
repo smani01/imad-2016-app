@@ -1,3 +1,4 @@
+// Eg: http://smani01.imad.hasura-app.io/articles/Blog%20%7C%20Sreedivya
 var currentArticleTitle = window.location.pathname.split('/')[2];
 
 function loadCommentForm () {
