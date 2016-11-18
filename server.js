@@ -40,7 +40,7 @@ function createTemplate(data) {
                 <link href="/ui/style.css" rel="stylesheet" />
             </head>
           <body>
-          <div class="container">
+          <div class="container-article">
               <div>
                   <a href="/">Home</a>
               </div>
