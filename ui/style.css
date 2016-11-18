@@ -93,6 +93,19 @@ a {
     text-align: center; 
 }
     
+
+#login_area {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: right; 
+    background: rgba(0,0,0,0.5);
+}
+
     #contactbar li {
     display:inline-block;
     padding: 10px 40px;
