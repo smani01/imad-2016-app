@@ -106,15 +106,17 @@ a {
     background: rgba(0,0,0,0.5);
 }
 
-block {
+reg {
     background-color: yellow;
     padding: 20px;
     display: none;
 }
     
-btn:hover + block {
+btn:hover + reg {
     display: block;
 }
+
+
     #contactbar li {
     display:inline-block;
     padding: 10px 40px;
