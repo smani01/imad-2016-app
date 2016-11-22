@@ -21,6 +21,8 @@ class="close" title="Close Modal">&times;</span>
 
       <button type="submit">Login</button>
       <input type="checkbox" checked="checked"> Remember me
+      
+      <input type="submit" id="register_btn" value="Register" />
     </div>
 
     <div class="container" style="background-color:#f1f1f1">
