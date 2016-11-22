@@ -95,7 +95,7 @@ a {
     top: 0;
     width: 100%;
     text-align: right; 
-    background: white;
+    background: rgba(0,0,0,0,0.5);
 }
 
     #contactbar li {
