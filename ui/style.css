@@ -96,7 +96,7 @@ a {
 
 #login_area {
     list-style-type: none;
-    margin: 0;
+    margin-right: 10%;
     padding: 0;
     overflow: hidden;
     position: fixed;
