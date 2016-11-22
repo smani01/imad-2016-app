@@ -8,11 +8,6 @@ function loadLoginForm () {
 class="close" title="Close Modal">&times;</span>
 
   
-  <form class="modal-content animate" action="action_page.php">
-    <div class="imgcontainer">
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
-
     <div class="container">
       <label><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
