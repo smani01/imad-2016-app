@@ -25,14 +25,6 @@ body {
     height: 200px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    color: #4a4a4a;
-    font-family: sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 .bgimg {
     background-image:url(/ui/Sree.jpg);
@@ -148,7 +140,7 @@ a {
     background-color: #fefefe;
     margin: 5px auto; /* 15% from the top and centered */
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width:50%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
