@@ -139,7 +139,7 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 10%;
 }
 
 /* Extra styles for the cancel button */
@@ -154,11 +154,6 @@ button {
     text-align: center;
     margin: 24px 0 12px 0;
     position: relative;
-}
-
-img.avatar {
-    width: 40%;
-    border-radius: 50%;
 }
 
 .container {
