@@ -133,7 +133,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    padding: 14px 20px;
+    padding: 1px 1px;
     margin-right:10px;
     border: none;
     cursor: pointer;
