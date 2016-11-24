@@ -15,7 +15,7 @@ class="close" title="Close Modal">&times;</span>
       <label><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
 
-      <button type="submit">Login</button>
+      <input type="submit" id="login_btn" value="Login" />
       <input type="checkbox" checked="checked"> Remember me
       
       <input type="submit" id="register_btn" value="Register" />
