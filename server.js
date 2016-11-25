@@ -219,7 +219,7 @@ app.post('/submit-comment/:articleName', function (req, res) {
 
 app.get('/articles/:articleName', function (req, res) {
   // SELECT * FROM article WHERE title = '\'; DELETE WHERE a = \'asdf'
-  pool.query("SELECT * FROM article WHERE title = $1", [req.params.articleName], function (err, result) {
+  pool.query("SELECT * FROM article WHERE title = $1 and id not in (1,2,3)", [req.params.articleName], function (err, result) {
     if (err) {
         res.status(500).send(err.toString());
     } else {
