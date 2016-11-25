@@ -13,6 +13,14 @@ body {
     color: #678;
 }
 
+.middle {
+    text-align: center;
+    line-height: 1.45;
+    font-family: "open sans",sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    color: black;
+}
 .text-big {
     font-size: 300%;
 }
