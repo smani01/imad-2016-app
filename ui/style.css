@@ -88,12 +88,11 @@ a {
 
 #login_area {
     list-style-type: none;
-    margin-right: 10px;
+    margin-left: 750px;
     padding: 0;
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
     text-align: right; 
     background: rgba(0,0,0,0,0.5);
 }
