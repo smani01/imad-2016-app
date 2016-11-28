@@ -7,7 +7,7 @@ function loadLoginForm () {
 				<div class="loginmodal-container">
 					<h1>Login to Your Account</h1><br>
 				  <form>
-					<input type="text" name="username" placeholder="Username">
+					<input type="text" name="username" id="username" placeholder="Username">
 					<input type="password" name="password" id="password" placeholder="Password">
 					<input type="submit" name="login" class="login loginmodal-submit" value="Login" id=login_btn>
 				  </form>
