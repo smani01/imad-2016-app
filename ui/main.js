@@ -1,33 +1,23 @@
 function loadLoginForm () {
     var loginHtml = `
-       <button onclick="document.getElementById('id01').style.display='block'">Login</button>
+       <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
 
-
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" 
-class="close" title="Close Modal">&times;</span>
-
-<form class="modal-content animate" method="POST" action="#">
-    <div class="container">
-      <label><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <button type="submit" id="login_btn">Login</button>
-      
-      <input type="checkbox" checked="checked"> Remember me
-      
-      <input type="submit" id="register_btn" value="Register" />
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot Password<a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+					
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
