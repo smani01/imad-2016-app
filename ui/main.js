@@ -12,7 +12,7 @@ function loadLoginForm () {
 				  </form>
 					
 				  <div class="login-help">
-					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				   <input type="submit" id="register_btn" value="Register" />
 				  </div>
 				</div>
 			</div>
