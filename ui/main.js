@@ -1,20 +1,17 @@
 function loadLoginForm () {
     var loginHtml = `
-  <div class="loginpanel">
-  <div class="txt">
-    <input id="username" type="text" placeholder="Username" />
-    <label for="user" class="entypo-user"></label>
-  </div>
-  <div class="txt">
-    <input id="password" type="password" placeholder="Password" />
-    <label for="pwd" class="entypo-lock"></label>
-  </div>
-  <div class="buttons">
-    <input type="button" value="Login" id="login_btn"/>
-    <span>
-      <a href="javascript:void(0)" class="entypo-user-add register" id='register_btn">Register</a>
-    </span>
-  </div>
+ <div class="login">
+  <div class="login-triangle"></div>
+  
+  <h2 class="login-header">Log in</h2>
+
+  <form class="login-container">
+    <p><input type="username" id="username" placeholder="Username"></p>
+    <p><input type="password" id="password" placeholder="Password"></p>
+    <p><input type="submit" id="login_btn" value="Log in"></p>
+    <p><input type="submit" id="register_btn" value="Register"></p>
+  </form>
+</div>
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
