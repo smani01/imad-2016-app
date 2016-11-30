@@ -11,16 +11,16 @@ function loadLoginForm () {
           </div>
           <div class="modal-body">
             <form method="post" action='' name="login_form">
-              <p><input type="text" class="span3" name="eid" id="email" placeholder="Email"></p>
-              <p><input type="password" class="span3" name="passwd" placeholder="Password"></p>
-              <p><button type="submit" class="btn btn-primary">Sign in</button>
+              <p><input type="text" class="span3" name="username" id="username" placeholder="Username"></p>
+              <p><input type="password" class="span3" name="password" id="password" placeholder="Password"></p>
+              <p><button type="submit" class="btn btn-primary" id="login_btn">Sign in</button>
                 <a href="#">Forgot Password?</a>
               </p>
             </form>
           </div>
           <div class="modal-footer">
             New To MyWebsite.com?
-            <a href="#" class="btn btn-primary">Register</a>
+            <a href="#" class="btn btn-primary" id="register_btn>Register</a>
           </div>
         </div>
 	</div>
