@@ -73,7 +73,7 @@ a {
 
 #horizontalmenu ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     position: fixed;
