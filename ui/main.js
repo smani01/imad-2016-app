@@ -1,23 +1,20 @@
 function loadLoginForm () {
     var loginHtml = `
-     <a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
-    	  <div class="modal-dialog">
-				<div class="loginmodal-container">
-					<h1>Login to Your Account</h1><br>
-				  <form>
-					<input type="text" name="username" id="username" placeholder="Username">
-					<input type="password" name="password" id="password" placeholder="Password">
-					<input type="submit" name="login" class="login loginmodal-submit" id="login_btn" value="Login">
-				  </form>
-					
-				  <div class="login-help">
-					<a href="#" id="register_btn">Register</a> - <a href="#">Forgot Password</a>
-				  </div>
-				</div>
-			</div>
-		  </div>
+  <div class="loginpanel">
+  <div class="txt">
+    <input id="username" type="text" placeholder="Username" />
+    <label for="user" class="entypo-user"></label>
+  </div>
+  <div class="txt">
+    <input id="password" type="password" placeholder="Password" />
+    <label for="pwd" class="entypo-lock"></label>
+  </div>
+  <div class="buttons">
+    <input type="button" value="Login" id="login_btn"/>
+    <span>
+      <a href="javascript:void(0)" class="entypo-user-add register" id='register_btn">Register</a>
+    </span>
+  </div>
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
     
