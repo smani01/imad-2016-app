@@ -1,16 +1,29 @@
 function loadLoginForm () {
     var loginHtml = `
- <div class="login">
-  <div class="login-triangle"></div>
-  
-  <h2 class="login-header">Log in</h2>
+ <div class="container">
+	<div class="row">
+		<a class="btn btn-primary" data-toggle="modal" href="#myModal" >Login</a>
 
-  <form class="login-container">
-    <p><input type="username" id="username" placeholder="Username"></p>
-    <p><input type="password" id="password" placeholder="Password"></p>
-    <p><input type="submit" id="login_btn" value="Log in"></p>
-    <p><input type="submit" id="register_btn" value="Register"></p>
-  </form>
+        <div class="modal hide" id="myModal">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">x</button>
+            <h3>Login to MyWebsite.com</h3>
+          </div>
+          <div class="modal-body">
+            <form method="post" action='' name="login_form">
+              <p><input type="text" class="span3" name="eid" id="email" placeholder="Email"></p>
+              <p><input type="password" class="span3" name="passwd" placeholder="Password"></p>
+              <p><button type="submit" class="btn btn-primary">Sign in</button>
+                <a href="#">Forgot Password?</a>
+              </p>
+            </form>
+          </div>
+          <div class="modal-footer">
+            New To MyWebsite.com?
+            <a href="#" class="btn btn-primary">Register</a>
+          </div>
+        </div>
+	</div>
 </div>
         `;
     document.getElementById('login_area').innerHTML = loginHtml;
