@@ -41,18 +41,14 @@ function createTemplate(data) {
             </head>
           <body>
           <div class="container-article">
-          <div id="horizontalmenu">
-        <ul>
-        <li><a href="http://smani01.imad.hasura-app.io/">Home</a></li>
-        <li><a href="http://smani01.imad.hasura-app.io/articles/Blog-Sreedivya">Blog</a></li>
-        <li><a href="http://smani01.imad.hasura-app.io/articles/About | Sreedivya">About</a></li>
-        <li><a href="http://smani01.imad.hasura-app.io/articles/Contact | Sreedivya">Contact</a></li>
-        </ul>
-        </div>
-              <div>
-                  <a href="/">Home</a>
-              </div>
-              <hr/>
+             <div id="horizontalmenu">
+                <ul>
+                    <li><a href="http://smani01.imad.hasura-app.io/">Home</a></li>
+                    <li><a href="http://smani01.imad.hasura-app.io/articles/Blog-Sreedivya">Blog</a></li>
+                    <li><a href="http://smani01.imad.hasura-app.io/articles/About | Sreedivya">About</a></li>
+                    <li><a href="http://smani01.imad.hasura-app.io/articles/Contact | Sreedivya">Contact</a></li>
+                </ul>
+             </div>
               <h3>
                   ${heading}
               </h3>
